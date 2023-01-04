@@ -9,7 +9,7 @@ function BookShow( { book, onDelete, onEdit }) {
     }
 
     const handleDeleteClick = () => {
-        onDelete(book.id);
+        onDelete(book._id);
     };
 
     const handleSubmit = (id, newTitle, newAuthor, newCategory) => {
